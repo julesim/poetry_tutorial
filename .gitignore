@@ -14,8 +14,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
 parts/
 sdist/
 var/
@@ -94,16 +92,11 @@ ipython_config.py
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
 
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
 
 # Environments
 .env
 .venv
+.venv/
 env/
 venv/
 ENV/
@@ -124,47 +117,6 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
-# Pyre type checker
-.pyre/
-.idea
-.vscode
-
-# pants build
-.pids/
-.pants.d/
-.pants.d.local/
-.pex/
-.pid.local/
-
-# toolkit
-.jupyter/
-.local/
-.virtual_documents/
-.ipython/
-postgres-data/
-# exclude output folder
-sme_toolkit/output/**
-# but keep only that folder
-!sme_toolkit/output/.gitkeep
-# exclude csv ouptut
-sme_toolkit/notebooks/.csv
-.idea
-*.log
-/sme_toolkit/**/output/
-/sme_toolkit/**/data/
-sme_toolkit/notebooks/output.json
-/sme_toolkit/data/output/**
-dbconfig-user.json
-.bash_history
-"/
-/sme_toolkit/models/
-/sme_toolkit/reports/
-
-
-/sme_toolkit/data/bulk/
-/sme_toolkit/data/input/
-/sme_toolkit/data/output/
 
 *.code-workspace
 *.DS_Store
